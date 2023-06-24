@@ -4,8 +4,8 @@ on:
     branches: [ main ]
 
 jobs:
-  ktlint:
-    name: Run ktlint check
+  build:
+    name: Run ktlint & detekt & build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
